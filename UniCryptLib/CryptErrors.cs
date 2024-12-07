@@ -1,0 +1,34 @@
+﻿namespace UniCryptLib
+{
+    public enum CryptErrors
+    {
+        CRYPT_OK = 0,
+        CRYPT_BUFFER_EMPTY = 1,
+        CRYPT_DLL_NOT_LOADED = 2,
+        CRYPT_BAD_CERT = 3,
+        CRYPT_CERT_NOT_ALLOWED = 4,
+        CRYPT_PWD_CANCELLED = 5,
+        CRYPT_SK_NOT_MATCH = 6,
+        CRYPT_SK_CORRUPT = 7,
+        CRYPT_BAD_PASSWORD = 8,
+        USC_BAD_BUFFER = 9,
+        USC_BUFFER_CORRUPT = 10, // 0x0000000A
+        CRYPT_BAD_SIGN = 11, // 0x0000000B
+        CRYPT_INTERNAL_ERR = 12, // 0x0000000C
+        USC_BAD_CRC = 13, // 0x0000000D
+        CRYPT_NOT_SUPPORTED = 14, // 0x0000000E
+        USC_CHK_ROOT_CERT = 15, // 0x0000000F
+        USC_TS_ALG_HASH = 21, // 0x00000015
+        USC_TS_ENC_REQ = 22, // 0x00000016
+        USC_TS_ENC_SHELL = 23, // 0x00000017
+        USC_TS_NO_HASH = 24, // 0x00000018
+        USC_TS_SOCK = 25, // 0x00000019
+        USC_TS_ANSWER = 26, // 0x0000001A
+        USC_TS_DIFHASH = 27, // 0x0000001B
+        CRYPT_CERT_REVOKED = 101, // 0x00000065
+        CRYPT_ERROR_TOKEN = 106, // 0x0000006A
+        ETOKEN_NOMEMORY = 65585, // 0x00010031
+        ETOKEN_PASSWORD_LOCKED = 65700, // 0x000100A4
+        ETOKEN_NOT_PRESENT = 65760, // 0x000100E0
+    }
+}
